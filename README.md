@@ -21,6 +21,6 @@ les bibliothéques utilisé et nécessaire pour son fonctionnement :
 -   tkinter 
 -   time
 -   matplotlib.colors 
--  atplotlib
+-   matplotlib
 
 version de python : 3.11
