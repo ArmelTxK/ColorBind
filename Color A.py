@@ -61,7 +61,8 @@ def type_text(widget, text):
          time.sleep(0.1)
 
          
-    #fonction de recuperation / affichage (temporaire)
+    #fonction de recuperation, d'attribution du groupe et d'affichage de la couleur
+    # lorsqu'on recupere le nom ou le code de la couleur on retourne le nom de la couleur et le groupe auquel il appartient
 def recup():
     res=entre1.get()
     if res:
@@ -190,10 +191,10 @@ screen1.grid(row = 0, column = 0)
  
 
 
-#------------------------------------------------------
+#creation de la deuxieme section 
 base2 = customtkinter.CTkFrame( master = app)
 base2.grid(row = 2, padx = 10, pady = 10)
-texte3 = customtkinter.CTkLabel(base2, text=" Reponse de l'IA :")
+texte3 = customtkinter.CTkLabel(base2, text=" Reponse de l'ordinateur :")
 texte3.grid(row = 1, padx = 5, pady = 5)
 texte2 = Text( base2)
 texte2.grid(row = 2, padx = 10, pady = 10)
