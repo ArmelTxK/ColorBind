@@ -1,5 +1,7 @@
-# ColorBind est programmé entierement en python
-c'est un logiciel de suggestion de couleur, qui permettra de resoudre le probleme de mariage de couleur
+# ColorBind
+
+ColorBind est un logiciel en cours de devellopement de suggestion de couleur, qui permettra de resoudre le probleme de mariage de couleur,
+il est programmé actuellement entierement en python
 
 
 composé dans un premier temps 
