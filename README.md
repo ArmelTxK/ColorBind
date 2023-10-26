@@ -22,5 +22,8 @@ les bibliothéques utilisé et nécessaire pour son fonctionnement :
 -   time
 -   matplotlib.colors 
 -   matplotlib
+-   threading
+-   numpy
+-   
 
 version de python : 3.11
