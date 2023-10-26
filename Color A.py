@@ -282,7 +282,7 @@ def Nvm():
 #creation de l'hote
 app = customtkinter.CTk()
 app.title("Color Bind")
-app.geometry("790x600")
+app.geometry("850x600")
 
 #creation de la fenetre destiné a la selection :
     #creation du premier cadre:
