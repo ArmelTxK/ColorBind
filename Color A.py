@@ -174,7 +174,7 @@ def recup():
                  thread_type_text.start()
              elif((res in rouges )or( res in Hexrouges)):
                 print("Groupe des rouge")
-                infoGrp="\n elle est une dérivé de la couleur Rouge \n"
+                infoGrp="\n  \n \nelle est une dérivé de la couleur Rouge \n"
                 discussion_1 = "\n les couleurs que je peux vous suggerer sont :\n - la couleur :  " +suggestion[0][0]+" qui a pour code   " +suggestion[1][0]+":\n - la couleur :  " +suggestion[0][1]+" qui a pour code  " + suggestion[1][1]+":\n - la couleur :  " +suggestion[0][2]+" qui a pour code  " + suggestion[1][2]+":\n - la couleur :  " +suggestion[0][3]+" qui a pour code  " + suggestion[1][3]+":\n - la couleur :  " +suggestion[0][4]+" qui a pour code  " + suggestion[1][4]    
 
                 txt="\n  la couleur selectionner est la couleur :"
@@ -183,10 +183,10 @@ def recup():
                 thread_type_text.start()
              elif((res in verts )or( res in Hexverts)):
                 print("Groupe des verts")
-                infoGrp="\n elle est une dérivé de la couleur Verte \n"
+                infoGrp="\n \n \n elle est une dérivé de la couleur Verte \n"
                 discussion_1 = "\n les couleurs que je peux vous suggerer sont :\n - la couleur :  " +suggestion[0][0]+" qui a pour code   " +suggestion[1][0]+":\n - la couleur :  " +suggestion[0][1]+" qui a pour code  " + suggestion[1][1]+":\n - la couleur :  " +suggestion[0][2]+" qui a pour code  " + suggestion[1][2]+":\n - la couleur :  " +suggestion[0][3]+" qui a pour code  " + suggestion[1][3]+":\n - la couleur :  " +suggestion[0][4]+" qui a pour code  " + suggestion[1][4]    
 
-                txt="\n  la couleur selectionner est la couleur :"
+                txt="\n \n \n  la couleur selectionner est la couleur :"
                 txt = txt + res+infoGrp+discussion_1 
                 thread_type_text = threading.Thread(target=type_text, args=(texte2, txt))
                 thread_type_text.start()
@@ -195,7 +195,7 @@ def recup():
                 infoGrp="\n elle est une dérivé de la couleur Jaune  \n"
                 discussion_1 = "\n les couleurs que je peux vous suggerer sont :\n - la couleur :  " +suggestion[0][0]+" qui a pour code   " +suggestion[1][0]+":\n - la couleur :  " +suggestion[0][1]+" qui a pour code  " + suggestion[1][1]+":\n - la couleur :  " +suggestion[0][2]+" qui a pour code  " + suggestion[1][2]+":\n - la couleur :  " +suggestion[0][3]+" qui a pour code  " + suggestion[1][3]+":\n - la couleur :  " +suggestion[0][4]+" qui a pour code  " + suggestion[1][4]    
 
-                txt="\n  la couleur selectionner est la couleur :"
+                txt="\n \n \n la couleur selectionner est la couleur :"
                 txt = txt + res+infoGrp+discussion_1 
                 thread_type_text = threading.Thread(target=type_text, args=(texte2, txt))
                 thread_type_text.start()
@@ -204,7 +204,7 @@ def recup():
                 infoGrp="\n elle est une dérivé de la couleur Violette  \n"
                 discussion_1 = "\n les couleurs que je peux vous suggerer sont :\n - la couleur :  " +suggestion[0][0]+" qui a pour code   " +suggestion[1][0]+":\n - la couleur :  " +suggestion[0][1]+" qui a pour code  " + suggestion[1][1]+":\n - la couleur :  " +suggestion[0][2]+" qui a pour code  " + suggestion[1][2]+":\n - la couleur :  " +suggestion[0][3]+" qui a pour code  " + suggestion[1][3]+":\n - la couleur :  " +suggestion[0][4]+" qui a pour code  " + suggestion[1][4]    
 
-                txt="\n  la couleur selectionner est la couleur :"
+                txt="\n \n \n la couleur selectionner est la couleur :"
                 txt = txt + res+infoGrp+discussion_1
                 thread_type_text = threading.Thread(target=type_text, args=(texte2, txt))
                 thread_type_text.start()
@@ -213,7 +213,7 @@ def recup():
                 infoGrp="\n elle est une dérivé de la couleur Orange \n"
                 discussion_1 = "\n les couleurs que je peux vous suggerer sont :\n - la couleur :  " +suggestion[0][0]+" qui a pour code   " +suggestion[1][0]+":\n - la couleur :  " +suggestion[0][1]+" qui a pour code  " + suggestion[1][1]+":\n - la couleur :  " +suggestion[0][2]+" qui a pour code  " + suggestion[1][2]+":\n - la couleur :  " +suggestion[0][3]+" qui a pour code  " + suggestion[1][3]+":\n - la couleur :  " +suggestion[0][4]+" qui a pour code  " + suggestion[1][4]    
 
-                txt="\n  la couleur selectionner est la couleur : "
+                txt="\n  \n \n la couleur selectionner est la couleur : "
                 txt = txt + res+infoGrp+discussion_1 
                 thread_type_text = threading.Thread(target=type_text, args=(texte2, txt))
                 thread_type_text.start()
@@ -222,7 +222,7 @@ def recup():
                 infoGrp="\n elle est une dérivé de la couleur Marrone \n"
                 discussion_1 = "\n les couleurs que je peux vous suggerer sont :\n - la couleur :  " +suggestion[0][0]+" qui a pour code   " +suggestion[1][0]+":\n - la couleur :  " +suggestion[0][1]+" qui a pour code  " + suggestion[1][1]+":\n - la couleur :  " +suggestion[0][2]+" qui a pour code  " + suggestion[1][2]+":\n - la couleur :  " +suggestion[0][3]+" qui a pour code  " + suggestion[1][3]+":\n - la couleur :  " +suggestion[0][4]+" qui a pour code  " + suggestion[1][4]    
 
-                txt="\n  la couleur selectionner est la couleur :"
+                txt="\n \n \n  la couleur selectionner est la couleur :"
                 txt = txt + res+infoGrp+discussion_1 
                 thread_type_text = threading.Thread(target=type_text, args=(texte2, txt))
                 thread_type_text.start()
@@ -231,7 +231,7 @@ def recup():
                 infoGrp="\n elle est une dérivé de la couleur Grise \n"
                 discussion_1 = "\n les couleurs que je peux vous suggerer sont :\n - la couleur :  " +suggestion[0][0]+" qui a pour code   " +suggestion[1][0]+":\n - la couleur :  " +suggestion[0][1]+" qui a pour code  " + suggestion[1][1]+":\n - la couleur :  " +suggestion[0][2]+" qui a pour code  " + suggestion[1][2]+":\n - la couleur :  " +suggestion[0][3]+" qui a pour code  " + suggestion[1][3]+":\n - la couleur :  " +suggestion[0][4]+" qui a pour code  " + suggestion[1][4]    
 
-                txt="\n  la couleur selectionner est la couleur :"
+                txt="\n \n \n la couleur selectionner est la couleur :"
                 txt = txt + res+infoGrp +discussion_1
                 thread_type_text = threading.Thread(target=type_text, args=(texte2, txt))
                 thread_type_text.start()
@@ -240,7 +240,7 @@ def recup():
                  infoGrp="\n elle est une dérivé de la couleur blanche \n" 
                  discussion_1 = "\n les couleurs que je peux vous suggerer sont :\n - la couleur :  " +suggestion[0][0]+" qui a pour code   " +suggestion[1][0]+":\n - la couleur :  " +suggestion[0][1]+" qui a pour code  " + suggestion[1][1]+":\n - la couleur :  " +suggestion[0][2]+" qui a pour code  " + suggestion[1][2]+":\n - la couleur :  " +suggestion[0][3]+" qui a pour code  " + suggestion[1][3]+":\n - la couleur :  " +suggestion[0][4]+" qui a pour code  " + suggestion[1][4]    
 
-                 txt="\n  la couleur selectionner est la couleur "
+                 txt="\n \n \n la couleur selectionner est la couleur "
                  txt = txt + res+infoGrp+discussion_1 
                  thread_type_text = threading.Thread(target=type_text, args=(texte2, txt))
                  thread_type_text.start()
@@ -249,7 +249,7 @@ def recup():
                  infoGrp="\n elle est une dérivé de la couleur noire \n"
                  discussion_1 = "\n les couleurs que je peux vous suggerer sont :\n - la couleur :  " +suggestion[0][0]+" qui a pour code   " +suggestion[1][0]+":\n - la couleur :  " +suggestion[0][1]+" qui a pour code  " + suggestion[1][1]+":\n - la couleur :  " +suggestion[0][2]+" qui a pour code  " + suggestion[1][2]+":\n - la couleur :  " +suggestion[0][3]+" qui a pour code  " + suggestion[1][3]+":\n - la couleur :  " +suggestion[0][4]+" qui a pour code  " + suggestion[1][4]    
 
-                 txt="\n  la couleur selectionner est la couleur :"
+                 txt="\n \n \n la couleur selectionner est la couleur :"
                  txt = txt + res+infoGrp+discussion_1 
                  thread_type_text = threading.Thread(target=type_text, args=(texte2, txt))
                  thread_type_text.start()
